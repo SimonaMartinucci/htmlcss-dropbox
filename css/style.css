@@ -51,6 +51,7 @@ a.menu-item {
     background-color: #0061ff;
     padding: 5px 15px;
     color: white;
+    text-align: center;
 }
 
 
@@ -69,16 +70,16 @@ section {
     width: 100%;
 }
 
-.backg-light-blue {
+.bg-light-blue {
     background-color: #b4d0e7;
 }
 
-.container-main {
+.main-container {
     width: 60%;
     margin: 0 auto;
 }
 
-.container-main h1 {
+.main-container h1 {
     font-size: 60px;
     font-weight: 900;
     padding-top: 50px;
@@ -92,7 +93,6 @@ section {
 .text-jumbo {
     width: 30%;
 }
-
 
 .text-jumbo p {
     margin-bottom: 30px;
@@ -127,7 +127,7 @@ section {
 
 /* sezione abbonamento */
 .container-all {
-    width: 50%;
+    max-width: calc(100% / 2);
     margin: 0 auto;
 }
 
@@ -154,17 +154,15 @@ section {
     display: flex;
     justify-content: space-between;
     /* forse serve stretch */
-    align-items: flex-start;
+    align-items: stretch;
 }
 
-.column {
-    width: 30%;
+.col {
+    width: calc(100% / 3 - 20px);
     border: 1px solid gray;
-    /* DEBUG */
-    height: 800px;
-    background-color: aquamarine;
 }
 
+/* etichetta abbonamento */
 .plan-type {
     width: 100%;
     padding-top: 10px;
@@ -179,6 +177,72 @@ section {
     margin-right: 5px;
 }
 
+/* descrizione abbonamento */
+.cont-description {
+    padding: 20px;
+}
+
+.plan-title {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.month {
+    font-size: 13px;
+}
+
+.accounts {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+.accounts div {
+    padding: 5px 0;
+    display: flex;
+    align-items: baseline;
+}
+
+.accounts span {
+    margin-left: 5px;
+}
+
+.cont-description .button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.accounts a {
+    color: #0061ff;
+    text-decoration: underline;
+}
+
+.line {
+    width: calc(100% / 3);
+    border-top: 1px solid gray;
+    margin-bottom: 40px;
+}
+
+.cont-description ul {
+    list-style-type: none;
+}
+
+.fa-check {
+    color: #0061ff;
+    font-weight: 800;
+}
+
+.list {
+    display: flex;
+    align-items: baseline;
+}
 
 
 /* FOOTER */
