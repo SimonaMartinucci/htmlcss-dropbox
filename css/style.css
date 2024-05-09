@@ -270,5 +270,36 @@ section {
     margin-top: 0;
 }
 
+/* sezione trova partner */
+.partner {
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+}
+
+.partner-img {
+    width: 60%;
+    margin-right: 20px;
+}
+
+.partner-img img {
+    width: 100%;
+    height: auto;
+}
+
+.partner-text {
+    width: 40%;
+}
+
+.partner-text a {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+
+
+
+
 
 /* FOOTER */
