@@ -153,12 +153,15 @@ section {
 .container-subscriptions {
     display: flex;
     justify-content: space-between;
-    /* forse serve stretch */
     align-items: stretch;
+    margin-bottom: 30px;
 }
 
 .col {
     width: calc(100% / 3 - 20px);
+}
+
+.border {
     border: 1px solid gray;
 }
 
@@ -242,6 +245,29 @@ section {
 .list {
     display: flex;
     align-items: baseline;
+}
+
+/* parte enterprise */
+.contact {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.left {
+    width: 70%;
+}
+
+.no-border {
+    border-bottom: none;
+}
+
+.no-margin {
+    margin-top: 0;
 }
 
 
