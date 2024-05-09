@@ -16,8 +16,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* DEBUG */
-    background-color: blue;
+    background-color: white;
 }
 
 .menu {
@@ -30,6 +29,7 @@ a.menu-item {
     color: gray;
 }
 
+/* parte sinistra header */
 .left-header {
     padding-left: 20px;
     display: flex;
@@ -37,6 +37,7 @@ a.menu-item {
     gap: 30px;
 }
 
+/* parte destra header */
 .right-header {
     padding-right: 20px;
     display: flex;
@@ -51,9 +52,87 @@ a.menu-item {
     color: white;
 }
 
+
+/* contenitore main e footer */
+#container-main-footer {
+    width: 100%;
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+    /* DEBUG */
+    /* background-color: blueviolet; */
+}
+
+
 /* MAIN */
 
+/* sezione jumbo */
+section {
+    width: 100%;
+}
 
+.jumbo {
+    background-color: #b4d0e7;
+    /* DEBUG */
+    min-height: 300px;
+}
+
+.under-jumbo {
+    /* DEBUG */
+    min-height: 50px;
+    background-color: white;
+}
+
+.container-main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container-main h1 {
+    font-size: 60px;
+    font-weight: 900;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.text-img-jumbo {
+    display: flex;
+}
+
+.text-jumbo {
+    width: 30%;
+}
+
+
+.text-jumbo p {
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+
+.text-jumbo span {
+    display: block;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.arrow {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.img-jumbo {
+    width: 70%;
+    position: relative;
+}
+
+.img-jumbo img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: -20px;
+}
 
 
 /* FOOTER */
