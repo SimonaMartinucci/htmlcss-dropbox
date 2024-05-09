@@ -149,5 +149,36 @@ section {
     margin-right: 40px;
 }
 
+/* tre metodi abbonamento */
+.container-subscriptions {
+    display: flex;
+    justify-content: space-between;
+    /* forse serve stretch */
+    align-items: flex-start;
+}
+
+.column {
+    width: 30%;
+    border: 1px solid gray;
+    /* DEBUG */
+    height: 800px;
+    background-color: aquamarine;
+}
+
+.plan-type {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.plan-type i {
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+
 
 /* FOOTER */
