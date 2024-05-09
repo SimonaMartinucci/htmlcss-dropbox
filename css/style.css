@@ -17,6 +17,7 @@ a {
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    border-bottom: 2px solid rgb(233, 232, 232);
 }
 
 .menu {
@@ -58,8 +59,6 @@ a.menu-item {
     width: 100%;
     height: calc(100vh - 80px);
     overflow-y: auto;
-    /* DEBUG */
-    /* background-color: blueviolet; */
 }
 
 
@@ -70,16 +69,8 @@ section {
     width: 100%;
 }
 
-.jumbo {
+.backg-light-blue {
     background-color: #b4d0e7;
-    /* DEBUG */
-    min-height: 300px;
-}
-
-.under-jumbo {
-    /* DEBUG */
-    min-height: 50px;
-    background-color: white;
 }
 
 .container-main {
@@ -115,7 +106,7 @@ section {
 }
 
 .arrow {
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 20px;
     font-size: 50px;
 }
@@ -133,6 +124,21 @@ section {
     top: 0;
     bottom: -20px;
 }
+
+/* sezione abbonamento */
+.container-main h2 {
+    font-size: 30px;
+}
+
+.sec-subscribe {
+    padding-top: 100px;
+}
+
+.invoice {
+    margin: 40px 0;
+}
+
+
 
 
 /* FOOTER */
