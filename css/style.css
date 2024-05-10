@@ -297,8 +297,24 @@ section {
     color: black;
 }
 
+/* sezione operazioni */
+.cont-op {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 70px;;
+}
 
+.item {
+    width: calc(100% / 3 - 20px);
+    margin: 10px 0;
+}
 
+.item img {
+    width: 100%;
+    height: auto;
+}
 
 
 
