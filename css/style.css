@@ -409,6 +409,28 @@ section {
     padding: 10px 30px;
 }
 
+/* sezione faq */
+.cont-faq {
+    padding: 100px 0;
+}
+
+.cont-questions {
+    margin-top: 40px;
+    border-top: 1px solid gray;
+}
+
+.row-questions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px 30px 0px;
+    border-bottom: 1px solid gray;
+}
+
+.row-questions .fa-chevron-down {
+    font-size: 10px;
+}
+
 
 
 /* FOOTER */
