@@ -389,6 +389,25 @@ section {
     margin-bottom: 30px;
 }
 
+/* sezione free trial */
+.cont-trial {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.cont-trial h2 {
+    width: 50%;
+    color: #61082b;
+}
+
+.cont-trial .button {
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+}
 
 
 
