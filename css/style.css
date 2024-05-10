@@ -30,21 +30,22 @@ a.menu-item {
     color: gray;
 }
 
-/* parte sinistra header */
-.left-header {
-    padding-left: 20px;
+.menu.left-header,
+.menu.right-header {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
+/* parte sinistra header */
+.left-header {
+    padding-left: 20px;
+}
+
 /* parte destra header */
 .right-header {
     padding-right: 20px;
-    display: flex;
     justify-content: flex-end;
-    align-items: center;
-    gap: 30px;
 }
 
 .button {
@@ -187,46 +188,48 @@ section {
     padding: 20px;
 }
 
-.plan-title {
+.title {
     font-size: 20px;
     font-weight: 800;
     margin-bottom: 20px;
 }
 
-.price {
+.sub-title {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 5px;
 }
 
-.month {
+.size {
     font-size: 13px;
 }
 
-.accounts {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 13px;
-}
-
-.accounts div {
-    padding: 5px 0;
+.list {
     display: flex;
     align-items: baseline;
 }
 
-.accounts span {
+.margin {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.margin div {
+    padding: 5px 0;
+}
+
+.margin span {
     margin-left: 5px;
+}
+
+.margin a {
+    color: #0061ff;
+    text-decoration: underline;
 }
 
 .cont-description .button {
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-.accounts a {
-    color: #0061ff;
-    text-decoration: underline;
 }
 
 .line {
@@ -244,12 +247,11 @@ section {
     font-weight: 800;
 }
 
-.list {
-    display: flex;
-    align-items: baseline;
+/* parte enterprise */
+.no-border-bot {
+    border-bottom: none;
 }
 
-/* parte enterprise */
 .contact {
     padding: 20px;
     display: flex;
@@ -260,15 +262,11 @@ section {
     border-bottom: 1px solid gray;
 }
 
-.left {
+.left-ent {
     width: 70%;
 }
 
-.no-border {
-    border-bottom: none;
-}
-
-.no-margin {
+.no-margin-top {
     margin-top: 0;
 }
 
