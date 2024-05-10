@@ -326,7 +326,7 @@ section {
     /* DEBUG */
     background-color: blue;
     border: 3px solid black;
-    height: 400px;
+    /* height: 400px; */
 }
 
 .lat-row {
@@ -340,9 +340,38 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* DEBUG */
-    background-color: yellow;
-    border: 1px solid black;
+}
+
+.designit {
+    background-color: #a2d39b;
+}
+
+.arizona {
+    background-color: #61082b;
+}
+
+.florida {
+    background-color: #0093ce;
+}
+
+.topps {
+    background-color: #ff1c1c;
+}
+
+.bicycle {
+    background-color: #d5001f;
+}
+
+.hearst {
+    background-color: #b4d0e7;
+}
+
+.lonely {
+    background-color: #0d2481;
+}
+
+.clear {
+    background-color: #ffd830;
 }
 
 .clients img {
@@ -351,9 +380,8 @@ section {
     filter: invert(1);
 }
 
-
-
 .mid-row {
+    height: auto;
     overflow-y: auto;
 }
 
