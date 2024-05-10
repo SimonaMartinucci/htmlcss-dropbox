@@ -9,6 +9,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* HEADER */
 #container-header {
     width: 100%;
@@ -238,10 +242,6 @@ section {
     margin-bottom: 40px;
 }
 
-.cont-description ul {
-    list-style-type: none;
-}
-
 .fa-check {
     color: #0061ff;
     font-weight: 800;
@@ -434,3 +434,47 @@ section {
 
 
 /* FOOTER */
+.bg-black {
+    background-color: black;
+    /* DEBUG */
+    height: 400px;
+}
+
+.cont-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.col-footer {
+    width: calc(100% / 5 -10px);
+    color: white;
+    /* DEBUG */
+    /* height: 300px; */
+    /* background-color: purple; */
+}
+
+.col-footer li {
+    margin: 10px 0;
+}
+
+.col-footer ul {
+    margin-bottom: 60px;
+}
+
+.col-footer .line {
+    width: 70%;
+}
+
+.col-footer .fa-earth-americas {
+    margin-right: 5px;
+}
+
+.col-footer .fa-caret-up {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.font-col-gray {
+    color: gray;
+}
