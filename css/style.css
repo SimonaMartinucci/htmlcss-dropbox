@@ -429,6 +429,7 @@ section {
 
 .row-questions .fa-chevron-down {
     font-size: 10px;
+    padding-left: 10px;
 }
 
 
@@ -436,22 +437,18 @@ section {
 /* FOOTER */
 .bg-black {
     background-color: black;
-    /* DEBUG */
-    height: 400px;
 }
 
 .cont-footer {
     display: flex;
     justify-content: space-between;
     padding-top: 70px;
+    padding-bottom: 30px;
 }
 
 .col-footer {
     width: calc(100% / 5 -10px);
     color: white;
-    /* DEBUG */
-    /* height: 300px; */
-    /* background-color: purple; */
 }
 
 .col-footer li {
