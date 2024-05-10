@@ -316,6 +316,48 @@ section {
     height: auto;
 }
 
+/* sezione clients */
+.cont-clients {
+    display: flex;
+}
+
+.col-clients {
+    width: calc(100% / 3);
+    /* DEBUG */
+    background-color: blue;
+    border: 3px solid black;
+    height: 400px;
+}
+
+.lat-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clients {
+    width: 50%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.clients img {
+    width: 50%;
+    margin: 0 auto;
+    filter: invert(1);
+}
+
+
+
+.mid-row {
+    overflow-y: auto;
+}
+
+
 
 
 /* FOOTER */
