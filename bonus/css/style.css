@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* HEADER */
+#container-header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 2px solid rgb(233, 232, 232);
+}
+
+.menu {
+    width: 50%;
+    height: 100%;
+    font-size: 15px;
+}
+
+a.menu-item {
+    color: gray;
+}
+
+.menu.left-header,
+.menu.right-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* parte sinistra header */
+.left-header {
+    padding-left: 20px;
+}
+
+/* parte destra header */
+.right-header {
+    padding-right: 20px;
+    justify-content: flex-end;
+}
+
+.button {
+    background-color: #0061ff;
+    padding: 5px 15px;
+    color: white;
+    text-align: center;
+}
+
+
+/* contenitore main e footer */
+#container-main-footer {
+    width: 100%;
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+}
+
+
+
+
+/* MAIN */
+
+/* sezione jumbo */
+section {
+    width: 100%;
+}
+
+.bg-light-blue {
+    background-color: #b4d0e7;
+}
+
+.main-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.main-container h1 {
+    font-size: 60px;
+    font-weight: 900;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.text-img-jumbo {
+    display: flex;
+}
+
+.text-jumbo {
+    width: 30%;
+}
+
+.text-jumbo p {
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+
+.text-jumbo span {
+    display: block;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.arrow {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: black;
+}
+
+.img-jumbo {
+    width: 70%;
+    position: relative;
+}
+
+.img-jumbo img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: -20px;
+}
+
+/* sezione abbonamento */
+.container-all {
+    max-width: calc(100% / 2);
+    margin: 0 auto;
+}
+
+.container-all h2 {
+    font-size: 30px;
+}
+
+.sec-subscribe {
+    padding-top: 120px;
+}
+
+.choose-sub {
+    margin-top: 40px;
+    margin-bottom: 30px
+}
+
+.invoice {
+    margin-left: 5px;
+    margin-right: 40px;
+}
+
+/* tre metodi abbonamento */
+.container-subscriptions {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 30px;
+}
+
+.col {
+    width: calc(100% / 3 - 20px);
+}
+
+.border {
+    border: 1px solid gray;
+}
+
+/* etichetta abbonamento */
+.plan-type {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.plan-type i {
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+/* descrizione abbonamento */
+.cont-description {
+    padding: 20px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.sub-title {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.size {
+    font-size: 13px;
+}
+
+.list {
+    display: flex;
+    align-items: baseline;
+}
+
+.margin {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.margin div {
+    padding: 5px 0;
+}
+
+.margin span {
+    margin-left: 5px;
+}
+
+.margin a {
+    color: #0061ff;
+    text-decoration: underline;
+}
+
+.cont-description .button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.line {
+    width: calc(100% / 3);
+    border-top: 1px solid gray;
+    margin-bottom: 40px;
+}
+
+.fa-check {
+    color: #0061ff;
+    font-weight: 800;
+}
+
+/* parte enterprise */
+.no-border-bot {
+    border-bottom: none;
+}
+
+.contact {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.left-ent {
+    width: 70%;
+}
+
+.no-margin-top {
+    margin-top: 0;
+}
+
+/* sezione trova partner */
+.partner {
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+}
+
+.partner-img {
+    width: 60%;
+    margin-right: 20px;
+}
+
+.partner-img img {
+    width: 100%;
+    height: auto;
+}
+
+.partner-text {
+    width: 40%;
+}
+
+.partner-text a {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+/* sezione operazioni */
+.cont-op {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 70px;;
+}
+
+.item {
+    width: calc(100% / 3 - 20px);
+    margin: 10px 0;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+/* sezione clients */
+.cont-clients {
+    display: flex;
+    margin: 120px 0 0;
+}
+
+.col-clients {
+    width: calc(100% / 3);
+    background-color: #f5f5f5;
+}
+
+.lat-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clients {
+    width: 50%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.designit {
+    background-color: #a2d39b;
+}
+
+.arizona {
+    background-color: #61082b;
+}
+
+.florida {
+    background-color: #0093ce;
+}
+
+.topps {
+    background-color: #ff1c1c;
+}
+
+.bicycle {
+    background-color: #d5001f;
+}
+
+.hearst {
+    background-color: #b4d0e7;
+}
+
+.lonely {
+    background-color: #0d2481;
+}
+
+.clear {
+    background-color: #ffd830;
+}
+
+.clients img {
+    width: 50%;
+    margin: 0 auto;
+    filter: invert(1);
+}
+
+.mid-row {
+    height: auto;
+    overflow-y: auto;
+    padding: 40px;
+}
+
+.mid-row img {
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+/* sezione free trial */
+.cont-trial {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.cont-trial h2 {
+    width: 50%;
+    color: #61082b;
+}
+
+.cont-trial .button {
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+}
+
+/* sezione faq */
+.cont-faq {
+    padding: 100px 0;
+}
+
+.cont-questions {
+    margin-top: 40px;
+    border-top: 1px solid gray;
+}
+
+.row-questions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px 30px 0px;
+    border-bottom: 1px solid gray;
+}
+
+.row-questions .fa-chevron-down {
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+
+
+/* FOOTER */
+.bg-black {
+    background-color: black;
+}
+
+.cont-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.col-footer {
+    width: calc(100% / 5 -10px);
+    color: white;
+}
+
+.col-footer li {
+    margin: 10px 0;
+}
+
+.col-footer ul {
+    margin-bottom: 60px;
+}
+
+.col-footer .line {
+    width: 70%;
+}
+
+.col-footer .fa-earth-americas {
+    margin-right: 5px;
+}
+
+.col-footer .fa-caret-up {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.font-col-gray {
+    color: gray;
+}
