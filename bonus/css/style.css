@@ -448,7 +448,7 @@ section {
 }
 
 .col-footer {
-    width: calc(100% / 5 -10px);
+    width: calc(100% / 5 - 10px);
     color: white;
 }
 
